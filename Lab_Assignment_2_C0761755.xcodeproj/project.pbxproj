@@ -14,6 +14,11 @@
 		2656AEFF23D911BB0017EA85 /* Lab_Assignment_2_C0761755.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2656AEFD23D911BB0017EA85 /* Lab_Assignment_2_C0761755.xcdatamodeld */; };
 		2656AF0123D911BD0017EA85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2656AF0023D911BD0017EA85 /* Assets.xcassets */; };
 		2656AF0423D911BD0017EA85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2656AF0223D911BD0017EA85 /* LaunchScreen.storyboard */; };
+		2656AF0D23D912EA0017EA85 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656AF0C23D912EA0017EA85 /* TableViewController.swift */; };
+		2656AF0F23D912F90017EA85 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656AF0E23D912F90017EA85 /* TableViewCell.swift */; };
+		2656AF1123D9131C0017EA85 /* AddTaskVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656AF1023D9131C0017EA85 /* AddTaskVc.swift */; };
+		2656AF1323D9136D0017EA85 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656AF1223D9136D0017EA85 /* CoreData.swift */; };
+		2656AF1523D945930017EA85 /* EditVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656AF1423D945930017EA85 /* EditVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		2656AF0023D911BD0017EA85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2656AF0323D911BD0017EA85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2656AF0523D911BD0017EA85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2656AF0C23D912EA0017EA85 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2656AF0E23D912F90017EA85 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2656AF1023D9131C0017EA85 /* AddTaskVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskVc.swift; sourceTree = "<group>"; };
+		2656AF1223D9136D0017EA85 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		2656AF1423D945930017EA85 /* EditVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +71,26 @@
 				2656AEF423D911BB0017EA85 /* AppDelegate.swift */,
 				2656AEF623D911BB0017EA85 /* SceneDelegate.swift */,
 				2656AEF823D911BB0017EA85 /* ViewController.swift */,
-				2656AEFA23D911BB0017EA85 /* Main.storyboard */,
 				2656AF0023D911BD0017EA85 /* Assets.xcassets */,
 				2656AF0223D911BD0017EA85 /* LaunchScreen.storyboard */,
 				2656AF0523D911BD0017EA85 /* Info.plist */,
-				2656AEFD23D911BB0017EA85 /* Lab_Assignment_2_C0761755.xcdatamodeld */,
+				2656AF0B23D912BF0017EA85 /* tableVc */,
 			);
 			path = Lab_Assignment_2_C0761755;
+			sourceTree = "<group>";
+		};
+		2656AF0B23D912BF0017EA85 /* tableVc */ = {
+			isa = PBXGroup;
+			children = (
+				2656AF0C23D912EA0017EA85 /* TableViewController.swift */,
+				2656AF1423D945930017EA85 /* EditVc.swift */,
+				2656AF0E23D912F90017EA85 /* TableViewCell.swift */,
+				2656AF1023D9131C0017EA85 /* AddTaskVc.swift */,
+				2656AEFD23D911BB0017EA85 /* Lab_Assignment_2_C0761755.xcdatamodeld */,
+				2656AEFA23D911BB0017EA85 /* Main.storyboard */,
+				2656AF1223D9136D0017EA85 /* CoreData.swift */,
+			);
+			path = tableVc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +165,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2656AEF923D911BB0017EA85 /* ViewController.swift in Sources */,
+				2656AF1523D945930017EA85 /* EditVc.swift in Sources */,
 				2656AEF523D911BB0017EA85 /* AppDelegate.swift in Sources */,
 				2656AEF723D911BB0017EA85 /* SceneDelegate.swift in Sources */,
+				2656AF0F23D912F90017EA85 /* TableViewCell.swift in Sources */,
+				2656AF1323D9136D0017EA85 /* CoreData.swift in Sources */,
+				2656AF1123D9131C0017EA85 /* AddTaskVc.swift in Sources */,
+				2656AF0D23D912EA0017EA85 /* TableViewController.swift in Sources */,
 				2656AEFF23D911BB0017EA85 /* Lab_Assignment_2_C0761755.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
